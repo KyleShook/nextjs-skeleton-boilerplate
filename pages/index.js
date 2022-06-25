@@ -10,8 +10,8 @@ export default function Home() {
 			<p>Global styles</p>
 			<p>Starter menu</p>
 			<p>Basic theme config</p>
-			<p>No style flicker when loading</p>
 			<p>Absolute imports (@components, @utils, etc.)</p>
+			<p>React 17, Next 12, Styled Components 5</p>
 		</section>
 	);
 }

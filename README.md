@@ -10,6 +10,6 @@ Found myself repeating this setup process several times when starting a new proj
 - Global styles
 - Starter menu
 - Basic theme config
-- No style flicker when loading
 - Absolute imports (@components, @utils, etc.)
 - Minor styling
+- React 17, Next 12, Styled Components 5
