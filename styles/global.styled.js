@@ -1,10 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-/* @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700;900&family=DM+Serif+Display:ital@0;1&display=swap'); */
-/* @import url('${(props) => props.theme.sansFontSource}');
-@import url('${(props) => props.theme.serifFontSource}'); */
-
 
  /* Box sizing rules */
 *,
@@ -45,7 +41,6 @@ body {
   line-height: 1.5;
   background: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.color};
-  /* font-family: ${({ theme }) => theme.sansFont}; */
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
