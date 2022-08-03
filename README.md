@@ -2,7 +2,7 @@
 
 Found myself repeating this setup process several times when starting a new project so I decided to just make a simple boilerplate to use instead.
 
-## ***** Work in Progress *******
+## **\*** Work in Progress **\*\*\***
 
 ### **Includes:**
 
@@ -13,3 +13,5 @@ Found myself repeating this setup process several times when starting a new proj
 - Absolute imports (@components, @utils, etc.)
 - Minor styling
 - React 17, Next 12, Styled Components 5
+
+TODO: Style flickering
