@@ -11,7 +11,7 @@ export default function Home() {
 			<p>Starter menu</p>
 			<p>Basic theme config</p>
 			<p>Absolute imports (@components, @utils, etc.)</p>
-			<p>React 17, Next 12, Styled Components 5</p>
+			<p>React - 17.0.2 | Next.js - 12.0.8 | Styled Components - 5.3.3</p>
 		</section>
 	);
 }

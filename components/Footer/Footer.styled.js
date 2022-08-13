@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme, type } from "styles/theme.styled";
 
 export const Menu = styled.div`
 	padding: 12px 0;
@@ -8,8 +9,8 @@ export const Menu = styled.div`
 `;
 
 export const Logo = styled.a`
-	color: ${({ theme }) => theme.color};
-	font-family: ${({ theme }) => theme.sansFont};
+	color: ${theme.color};
+	font-family: ${type.sansFont};
 	font-size: 18px;
 	font-weight: 600;
 	text-decoration: none;
@@ -21,14 +22,14 @@ export const MenuLinksContainer = styled.ul`
 
 export const MenuLinks = styled.li`
 	margin: 0 16px;
-	font-family: ${({ theme }) => theme.sansFont};
+	font-family: ${type.sansFont};
 
 	:last-child {
 		margin-right: 0;
 	}
 
 	a {
-		color: ${({ theme }) => theme.color};
+		color: ${theme.color};
 		font-weight: 600;
 		text-decoration-color: transparent;
 		text-underline-offset: 4px;

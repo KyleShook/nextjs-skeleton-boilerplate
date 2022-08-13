@@ -3,6 +3,9 @@ export const theme = {
 	color: "black",
 	maxWidth: "1000px",
 	logoSize: "28px",
+};
+
+export const type = {
 	sansFont: "'Archivo', sans-serif;",
 	sansFontSource:
 		"https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700;900",

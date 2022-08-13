@@ -8,10 +8,8 @@ Found myself repeating this setup process several times when starting a new proj
 
 - CSS Reset
 - Global styles
-- Starter menu
-- Basic theme config
+- Basic theme configuartion
 - Absolute imports (@components, @utils, etc.)
 - Minor styling
-- React 17, Next 12, Styled Components 5
-
-TODO: Style flickering
+- Starter menu
+- React - 17.0.2 | Next.js - 12.0.8 | Styled Components - 5.3.3
