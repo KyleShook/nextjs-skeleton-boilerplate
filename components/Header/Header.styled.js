@@ -10,7 +10,7 @@ export const Menu = styled.nav`
 
 export const Logo = styled.a`
 	color: ${theme.color};
-	font-family: ${type.sansFont};
+	font-family: ${type.sans};
 	font-size: 28px;
 	font-weight: 600;
 	text-decoration: none;
@@ -22,7 +22,7 @@ export const MenuLinksContainer = styled.ul`
 
 export const MenuLinks = styled.li`
 	margin: 0 16px;
-	font-family: ${type.sansFont};
+	font-family: ${type.sans};
 
 	:last-child {
 		margin-right: 0;

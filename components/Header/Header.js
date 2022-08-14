@@ -11,7 +11,7 @@ const Header = () => {
 				</Link>
 				<MenuLinksContainer>
 					<MenuLinks>
-						<Link href="/pageOne">
+						<Link href="/about">
 							<a>About</a>
 						</Link>
 					</MenuLinks>
