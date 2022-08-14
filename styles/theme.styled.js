@@ -5,11 +5,12 @@ export const theme = {
 	logoSize: "28px",
 };
 
+// Link fonts in `pages/_document.js`
 export const type = {
-	sansFont: "'Archivo', sans-serif;",
-	sansFontSource:
-		"https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;700;900",
-	serifFont: "'DM Serif Display', serif;",
-	serifFontSource:
-		"https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap",
+	sans: "'Archivo', sans-serif;",
+	serif: "'DM Serif Display', serif;",
 };
+
+export const colors = {};
+export const fontSize = {};
+export const width = {};

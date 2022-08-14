@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { theme, type } from "./theme.styled";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -39,8 +40,10 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: ${({ theme }) => theme.background};
-  color: ${({ theme }) => theme.color};
+  background: ${theme.background};
+  color: ${theme.color};
+  /* font-family: ${type.serif}; */
+ font-family: ${type.sans};
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -82,19 +85,19 @@ select {
 /* Custom */
 main {
   width: 100%;
-  max-width: ${({ theme }) => theme.maxWidth};
+  max-width: ${theme.maxWidth};
   margin: auto;
 }
 
 nav {
   width: 100%;
-  max-width: ${({ theme }) => theme.maxWidth};
+  max-width: ${theme.maxWidth};
   margin: auto;
 }
 
 footer {
   width: 100%;
-  max-width: ${({ theme }) => theme.maxWidth};
+  max-width: ${theme.maxWidth};
   margin: auto;
 }
 
@@ -105,7 +108,7 @@ img {
 
 p {
 	font-size: 18px;
-  font-family: ${({ theme }) => theme.sansFont};
+  font-family: ${type.sans};
 }
 
 h1,
@@ -114,8 +117,8 @@ h3,
 h4,
 h5,
 h6 {
- /* font-family: ${({ theme }) => theme.serifFont}; */
- font-family: ${({ theme }) => theme.sansFont};
+ font-family: ${type.serif};
+ /* font-family: ${type.sans}; */
  font-weight: 900;
 }
 
