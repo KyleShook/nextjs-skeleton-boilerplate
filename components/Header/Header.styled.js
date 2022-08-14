@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { theme, type } from "styles/theme.styled";
+import { theme, type } from "styles/theme.styled";
 
 export const Menu = styled.nav`
 	padding: 12px 0;
