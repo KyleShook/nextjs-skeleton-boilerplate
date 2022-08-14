@@ -1,9 +1,5 @@
 # Next.js + Styled Components Skeleton Boilerplate
 
-Found myself repeating this setup process several times when starting a new project so I decided to just make a simple boilerplate to use instead.
-
-## **\*** Work in Progress **\*\*\***
-
 ### **Includes:**
 
 - CSS Reset
