@@ -1,12 +1,23 @@
 # Next.js + Styled Components Skeleton Boilerplate
 
+I grew tired of setting up a simple project each time I wanted to build something so I made this boilerplate. Very much a work in progress.
+
 ### **Includes:**
 
 - CSS Reset
 - Mini Theme config
 - Absolute imports (@components, @utils, etc.)
-- Starter menu
-- React - 17.0.2 | Next.js - 12.0.8 | Styled Components - 5.3.3
+- Starter menu & footer
+- React - v17.0.2 | Next.js - v12.0.8 | Styled Components - v5.3.3
+
+---
+
+### **TODO:**
+
+- Hamburger menu
+- Storybook
+
+---
 
 <h2>CSS Reset</h2>
 <a href="https://hankchizljaw.com/wrote/a-modern-css-reset/">
@@ -15,9 +26,9 @@
 <hr />
 <h2>Mini Theme config</h2>
 
-```js
-// styles/theme.styled.js
+**styles/theme.styled.js**
 
+```js
 export const colors = {
 	primary: "#3E71F4",
 	secondary: "#4C956C",
@@ -25,9 +36,9 @@ export const colors = {
 };
 ```
 
-```js
-// Footer.styled.js
+**components/Footer/Footer.styled.js**
 
+```js
 import styled from "styled-components";
 import { colors } from "styles/theme.styled";
 
@@ -39,10 +50,9 @@ export const Logo = styled.a`
 <hr />
 
 <h2>Absolute imports (@components, @utils, etc.)</h2>
+**jsconfig.json**
 
 ```json
-// jsconfig.json
-
 {
 	"compilerOptions": {
 		"baseUrl": ".",

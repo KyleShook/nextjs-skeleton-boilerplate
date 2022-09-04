@@ -17,12 +17,12 @@ const Footer = () => {
 					</MenuLinks>
 					<MenuLinks>
 						<Link href="/pageTwo">
-							<a>Link 2</a>
+							<a>Page Two</a>
 						</Link>
 					</MenuLinks>
 					<MenuLinks>
 						<Link href="/pageThree">
-							<a>Link 3</a>
+							<a>Page Three</a>
 						</Link>
 					</MenuLinks>
 				</MenuLinksContainer>
