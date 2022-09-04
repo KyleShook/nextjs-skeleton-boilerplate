@@ -42,8 +42,7 @@ body {
   line-height: 1.5;
   background: ${theme.background};
   color: ${theme.color};
-  /* font-family: ${type.serif}; */
- font-family: ${type.sans};
+  font-family: ${type.sans};
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -107,7 +106,7 @@ img {
 }
 
 p {
-	font-size: 18px;
+	font-size: ${type.medium};
   font-family: ${type.sans};
 }
 

@@ -14,10 +14,45 @@
 </a>
 <hr />
 <h2>Mini Theme config</h2>
-<p>
-    Located in <b>styles/theme.styled.js</b>
-</p>
-<p>
-    See <b>Header.styled.js</b> for an example of how it is used.
-</p>
+
+```js
+// styles/theme.styled.js
+
+export const colors = {
+	primary: "#3E71F4",
+	secondary: "#4C956C",
+	terciary: "#4C956C",
+};
+```
+
+```js
+// Footer.styled.js
+
+import styled from "styled-components";
+import { colors } from "styles/theme.styled";
+
+export const Logo = styled.a`
+	color: ${colors.primary};
+`;
+```
+
 <hr />
+
+<h2>Absolute imports (@components, @utils, etc.)</h2>
+
+```json
+// jsconfig.json
+
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "commonjs",
+		"target": "es6",
+		"paths": {
+			"@components": ["./components/index"],
+			"@utils": ["./utils/index"]
+		}
+	},
+	"exclude": ["node_modules", "/.next"]
+}
+```

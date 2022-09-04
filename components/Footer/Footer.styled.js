@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, type } from "styles/theme.styled";
+import { theme, type, colors } from "styles/theme.styled";
 
 export const Menu = styled.div`
 	padding: 12px 0;
@@ -9,9 +9,9 @@ export const Menu = styled.div`
 `;
 
 export const Logo = styled.a`
-	color: ${theme.color};
+	color: ${colors.primary};
 	font-family: ${type.sans};
-	font-size: 18px;
+	font-size: ${type.medium};
 	font-weight: 600;
 	text-decoration: none;
 `;
