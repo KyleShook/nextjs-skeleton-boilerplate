@@ -7,7 +7,7 @@ export default function Home() {
 			</h1>
 			<h2>Includes:</h2>
 			<p>CSS Reset</p>
-			<p>Starter menu</p>
+			<p>Starter menu & footer</p>
 			<p>Mini Theme config</p>
 			<p>Absolute imports (@components, @utils, etc.)</p>
 			<p>React - 17.0.2 | Next.js - 12.0.8 | Styled Components - 5.3.3</p>

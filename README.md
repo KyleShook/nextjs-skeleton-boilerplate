@@ -15,7 +15,6 @@ I grew tired of setting up a simple project each time I wanted to build somethin
 ### **TODO:**
 
 - Hamburger menu
-- Storybook
 
 ---
 
@@ -50,6 +49,7 @@ export const Logo = styled.a`
 <hr />
 
 <h2>Absolute imports (@components, @utils, etc.)</h2>
+
 **jsconfig.json**
 
 ```json
@@ -65,4 +65,10 @@ export const Logo = styled.a`
 	},
 	"exclude": ["node_modules", "/.next"]
 }
+```
+
+**Example:**
+
+```javascript
+import { Header, Footer } from "@components";
 ```
