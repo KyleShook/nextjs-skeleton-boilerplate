@@ -15,7 +15,15 @@ I grew tired of setting up a simple project each time I wanted to build somethin
 
 ### **TODO:**
 
-- Hamburger menu
+⬜ Hamburger menu
+⬜ Jest / React Testing Library
+⬜ Axe integration with Jest
+⬜ SEO setup
+✅ Update Next.js
+✅ Update React
+✅ Add Storybook
+✅ Google Fonts
+✅ Absolute imports
 
 ---
 
