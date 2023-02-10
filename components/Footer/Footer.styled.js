@@ -8,7 +8,7 @@ export const Menu = styled.div`
 	align-items: center;
 `;
 
-export const Logo = styled.a`
+export const Logo = styled.p`
 	color: ${colors.primary};
 	font-family: ${type.sans};
 	font-size: ${type.medium};

@@ -2,7 +2,7 @@
 
 I grew tired of setting up a simple project each time I wanted to build something so I made this boilerplate. Very much a work in progress.
 
-### **Includes:**
+## **Includes:**
 
 - CSS Reset
 - Mini Theme config

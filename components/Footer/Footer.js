@@ -6,24 +6,18 @@ const Footer = () => {
 	return (
 		<footer>
 			<Menu>
-				<Link passHref href="/">
+				<Link href="/">
 					<Logo>Footer Title</Logo>
 				</Link>
 				<MenuLinksContainer>
 					<MenuLinks>
-						<Link href="/about">
-							<a>About</a>
-						</Link>
+						<Link href="/about">About</Link>
 					</MenuLinks>
 					<MenuLinks>
-						<Link href="/pageTwo">
-							<a>Page Two</a>
-						</Link>
+						<Link href="/pageTwo">Page Two</Link>
 					</MenuLinks>
 					<MenuLinks>
-						<Link href="/pageThree">
-							<a>Page Three</a>
-						</Link>
+						<Link href="/pageThree">Page Three</Link>
 					</MenuLinks>
 				</MenuLinksContainer>
 			</Menu>
