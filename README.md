@@ -8,7 +8,7 @@ I grew tired of setting up a simple project each time I wanted to build somethin
 - Mini Theme config
 - Absolute imports (@components, @utils, etc.)
 - Starter menu & footer
-- React - v17.0.2 | Next.js - v12.0.8 | Styled Components - v5.3.3
+- React - v18.2.0 | Next.js - v13.1.6 | Styled Components - v5.3.3
 
 ---
 
