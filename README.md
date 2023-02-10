@@ -5,8 +5,9 @@ I grew tired of setting up a simple project each time I wanted to build somethin
 ## **Includes:**
 
 - CSS Reset
-- Mini Theme config
-- Absolute imports (@components, @utils, etc.)
+- Mini Theme config - [styles/theme.styled.js]
+- Working with Google Fonts
+- Absolute imports (@components, @utils, @theme, etc.)
 - Storybook - v6.5.16 (working with theme config/@imports/styled-components)
 - React - v18.2.0 | Next.js - v13.1.6 | Styled Components - v5.3.3
 
@@ -58,9 +59,11 @@ export const Logo = styled.a`
 		"baseUrl": ".",
 		"module": "commonjs",
 		"target": "es6",
+		"moduleResolution": "node",
 		"paths": {
 			"@components": ["./components/index"],
-			"@utils": ["./utils/index"]
+			"@utils": ["./utils/index"],
+			"@theme": ["./styles/theme.styled.js"]
 		}
 	},
 	"exclude": ["node_modules", "/.next"]
