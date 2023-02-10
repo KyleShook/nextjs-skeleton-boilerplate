@@ -3,9 +3,11 @@
 		"baseUrl": ".",
 		"module": "commonjs",
 		"target": "es6",
+		"moduleResolution": "node",
 		"paths": {
 			"@components": ["./components/index"],
-			"@utils": ["./utils/index"]
+			"@utils": ["./utils/index"],
+			"@theme": ["./styles/theme.styled.js"]
 		}
 	},
 	"exclude": ["node_modules", "/.next"]

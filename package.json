@@ -1,27 +1,43 @@
 {
-	"private": true,
-	"name": "nextjs-skeleton-boilerplate",
-	"version": "1.0.0",
-	"author": "Kyle Shook",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/KyleShook/nextjs-skeleton-boilerplate.git"
-	},
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"next": "^13.1.6",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"styled-components": "^5.3.3"
-	},
-	"devDependencies": {
-		"babel-plugin-styled-components": "^2.0.2",
-		"eslint": "8.7.0",
-		"eslint-config-next": "^13.1.6"
-	}
+  "private": true,
+  "name": "nextjs-skeleton-boilerplate",
+  "version": "1.0.0",
+  "author": "Kyle Shook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleShook/nextjs-skeleton-boilerplate.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "8.7.0",
+    "eslint-config-next": "^13.1.6",
+    "eslint-plugin-storybook": "^0.6.10",
+    "webpack": "^5.75.0"
+  }
 }
