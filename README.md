@@ -7,7 +7,7 @@ I grew tired of setting up a simple project each time I wanted to build somethin
 - CSS Reset
 - Mini Theme config
 - Absolute imports (@components, @utils, etc.)
-- Starter menu & footer
+- Storybook - v6.5.16 (working with theme config/@imports/styled-components)
 - React - v18.2.0 | Next.js - v13.1.6 | Styled Components - v5.3.3
 
 ---

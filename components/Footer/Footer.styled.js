@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, type, colors } from "styles/theme.styled";
+import { theme, type, colors } from "@theme";
 
 export const Menu = styled.div`
 	padding: 12px 0;
