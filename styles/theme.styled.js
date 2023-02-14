@@ -16,9 +16,19 @@ export const type = {
 };
 
 export const colors = {
-	primary: "#000",
-	secondary: "#4C956C",
-	terciary: "#4C956C",
+	primary: "#1e90ff",
+	secondary: "#1c5e9f",
+	terciary: "#1c5e9f",
+	white: "#fff",
+	black: "#000",
+	transparent: "transparent",
 };
-export const fontSize = {};
+export const fontSize = {
+	small: "14px",
+	medium: "18px",
+	large: "24px",
+	xlarge: "30px",
+	xxl: "36px",
+	xxxl: "42px",
+};
 export const width = {};
