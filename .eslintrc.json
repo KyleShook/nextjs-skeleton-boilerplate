@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": ["next/core-web-vitals", "next/babel"],
+	"settings": {
+		"import/resolver": {
+			"alias": [
+				"@components",
+				["./components/index"],
+				"@utils",
+				["./utils/index"],
+				"@theme",
+				["./styles/theme.styled.js"]
+			]
+		}
+	}
 }

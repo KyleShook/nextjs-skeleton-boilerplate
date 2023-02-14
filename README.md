@@ -1,6 +1,6 @@
 # Next.js + Styled Components Skeleton Boilerplate
 
-I grew tired of setting up a simple project each time I wanted to build something so I made this boilerplate. Very much a work in progress.
+I grew tired of setting up a project each time I wanted to build something new so I made this boilerplate. Very much a work in progress.
 
 ## **Includes:**
 
@@ -9,16 +9,20 @@ I grew tired of setting up a simple project each time I wanted to build somethin
 - Working with Google Fonts
 - Absolute imports (@components, @utils, @theme, etc.)
 - Storybook - v6.5.16 (working with theme config/@imports/styled-components)
-- React - v18.2.0 | Next.js - v13.1.6 | Styled Components - v5.3.3
+- React - v18.2.0
+- Next.js - v13.1.6
+- Styled Components - v5.3.3
+- Jest - 29.4.2
+- React Testing Library - 13.4.0
 
 ---
 
 ### **TODO:**
 
 ⬜ Hamburger menu  
-⬜ Jest / React Testing Library  
 ⬜ Axe integration with Jest  
 ⬜ SEO setup  
+✅ Jest / React Testing Library  
 ✅ Update Next.js  
 ✅ Update React  
 ✅ Add Storybook  
@@ -82,4 +86,26 @@ export const Logo = styled.a`
 
 ```javascript
 import { Header, Footer } from "@components";
+```
+
+<h2>Jest / React Testing Library</h2>
+
+```javascript
+import React from "react";
+import { render, cleanup } from "@testing-library/react";
+import Button from "./Button";
+import { colors } from "@theme";
+
+describe("Button", () => {
+	test("renders with primary prop and styles", () => {
+		const { getByText } = render(<Button primary>Primary</Button>);
+
+		expect(getByText("Primary")).toBeInTheDocument();
+
+		expect(getByText("Primary")).toHaveStyle(`
+    		background-color: ${colors.primary};
+    		color: ${colors.white};
+    	`);
+	});
+});
 ```
