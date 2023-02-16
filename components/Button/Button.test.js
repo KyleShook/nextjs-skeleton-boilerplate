@@ -14,38 +14,37 @@ afterEach(() => {
 });
 
 describe("Button", () => {
-	test("renders with primary prop and styles", () => {
-		const { getByText } = render(<Button primary>Primary</Button>);
+	test("renders with type 'fill' prop and styles", () => {
+		const { getByText } = render(<Button type="fill">Fill Button</Button>);
 
-		expect(getByText("Primary")).toBeInTheDocument();
+		expect(getByText("Fill Button")).toBeInTheDocument();
 
-		expect(getByText("Primary")).toHaveStyle(`
+		expect(getByText("Fill Button")).toHaveStyle(`
 			background-color: ${colors.primary};
 			color: ${colors.white};
 			`);
 	});
 
-	test("renders with secondary prop and styles", () => {
-		const { getByText } = render(<Button secondary>Secondary</Button>);
+	test("renders with type 'stroke' prop and styles", () => {
+		const { getByText } = render(<Button type="stroke">Stroke Button</Button>);
 
-		expect(getByText("Secondary")).toBeInTheDocument();
+		expect(getByText("Stroke Button")).toBeInTheDocument();
 
-		expect(getByText("Secondary")).toHaveStyle(`
+		expect(getByText("Stroke Button")).toHaveStyle(`
 			background-color: ${colors.transparent};
 			color: ${colors.secondary};
 			border: 2px solid ${colors.secondary};
 			`);
 	});
 
-	test("renders with tertiary prop and styles", () => {
-		const { getByText } = render(<Button tertiary>Tertiary</Button>);
+	test("renders with type 'text' prop and styles", () => {
+		const { getByText } = render(<Button type="text">Text Button</Button>);
 
-		expect(getByText("Tertiary")).toBeInTheDocument();
+		expect(getByText("Text Button")).toBeInTheDocument();
 
-		expect(getByText("Tertiary")).toHaveStyle(`
+		expect(getByText("Text Button")).toHaveStyle(`
 			background-color: ${colors.transparent};
-			color: ${colors.terciary};
-			text-decoration: underline;
+			color: ${colors.tertiary};
 		`);
 	});
 });

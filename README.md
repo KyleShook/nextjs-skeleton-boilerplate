@@ -44,7 +44,7 @@ I grew tired of setting up a project each time I wanted to build something new s
 export const colors = {
 	primary: "#3E71F4",
 	secondary: "#4C956C",
-	terciary: "#4C956C",
+	tertiary: "#4C956C",
 };
 ```
 
