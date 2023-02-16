@@ -13,9 +13,9 @@ const ButtonStyles = styled.button`
 	transition: color 0.3s, background 0.3s;
 	font-size: ${fontSize.small};
 
-	/* Primary button styles */
+	/* Fill button styles */
 	${(props) =>
-		props.primary &&
+		props.type === "fill" &&
 		css`
 			background-color: ${colors.primary}};
 			color: ${colors.white};
@@ -26,9 +26,9 @@ const ButtonStyles = styled.button`
 			}
 		`}
 
-	/* Secondary button styles */
+	/* Stroke button styles */
 	${(props) =>
-		props.secondary &&
+		props.type === "stroke" &&
 		css`
 			background-color: ${colors.transparent};
 			color: ${colors.secondary};
@@ -40,13 +40,12 @@ const ButtonStyles = styled.button`
 			}
 		`}
 
-	/* Tertiary button styles */
+	/* Text button styles */
 	${(props) =>
-		props.tertiary &&
+		props.type === "text" &&
 		css`
 			background-color: ${colors.transparent};
-			color: ${colors.terciary};
-			text-decoration: underline;
+			color: ${colors.tertiary};
 
 			&:hover {
 				background: #f5f5f5;

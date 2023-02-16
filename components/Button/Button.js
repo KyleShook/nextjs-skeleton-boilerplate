@@ -3,15 +3,10 @@ import PropTypes from "prop-types";
 import ButtonStyles from "./Button.styled";
 
 const Button = (props) => {
-	const { children, onClick, primary, secondary, tertiary } = props;
+	const { children, onClick, type } = props;
 
 	return (
-		<ButtonStyles
-			primary={primary}
-			secondary={secondary}
-			tertiary={tertiary}
-			onClick={onClick}
-		>
+		<ButtonStyles onClick={onClick} type={type}>
 			{children}
 		</ButtonStyles>
 	);
@@ -20,16 +15,12 @@ const Button = (props) => {
 Button.propTypes = {
 	children: PropTypes.node.isRequired,
 	onClick: PropTypes.func,
-	primary: PropTypes.bool,
-	secondary: PropTypes.bool,
-	tertiary: PropTypes.bool,
+	type: PropTypes.string.isRequired,
 };
 
 Button.defaultProps = {
 	onClick: () => {},
-	primary: false,
-	secondary: false,
-	tertiary: false,
+	type: "fill",
 };
 
 export default Button;

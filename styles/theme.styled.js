@@ -18,7 +18,7 @@ export const type = {
 export const colors = {
 	primary: "#1e90ff",
 	secondary: "#1c5e9f",
-	terciary: "#1c5e9f",
+	tertiary: "#1c5e9f",
 	white: "#fff",
 	black: "#000",
 	transparent: "transparent",
